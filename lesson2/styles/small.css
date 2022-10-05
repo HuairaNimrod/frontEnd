@@ -1,0 +1,75 @@
+:root{
+    --paragraph-font: 'Chakra Petch', sans-serif;
+    --heading-font:  Rajdhani, sans-serif;
+}
+
+p{   font-family: var(--paragraph-font);}
+h1,h2,h3{    font-family: var(--heading-font);}
+
+body{
+    /*center the body horizontally*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.flex-container{
+    background-color: rgb(36, 103, 36);
+    text-align: center;
+    color: white;
+    font-size: 0px;
+}
+.flex-item-left{
+    padding: 5px;
+    font-size: 18px;
+}
+.flex-item-rigth{
+    padding: 5px;
+    font-size: 15px;
+}
+
+img{
+    max-width: 70%;
+}
+
+
+/* section */
+section{
+    margin: 15px;
+    font-size: 0px;
+}
+ 
+article{
+    
+    background-color: rgb(203, 199, 199);
+    border-radius: 5px;
+    display: block;
+    margin: 0px auto;
+}
+
+article h3{
+    background-color: rgb(36, 103, 36);
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+
+article p{
+    padding: 10px 20px;
+    font-size: 18px ;
+}
+header p{
+    padding: 0px 5px;
+}
+
+article a{
+    padding: 0px 5px;
+    font-size: 18px;
+}
+article img{
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+}
