@@ -1,0 +1,13 @@
+@media(max-width: 894px) and (min-width: 600px){
+
+    *{
+        border: 1px solid blue;
+    }
+    body {
+        width: 90%;
+    }
+    
+
+
+}
+

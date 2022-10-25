@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Rajdhani&display=swap');
+
+/* font-family: 'Chakra Petch', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+
+/* header */
+
+header h2{
+    text-align: center;
+    color: rgb(28, 62, 142);
+}
+
+/* body */
+
+.color, .color-code{
+    text-align: center;
+}
+.color p{
+    display: inline-block;
+    align-items: center;
+    min-width: 100px;
+    text-align: center ;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.color-code p{
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color:white
+}
+#blue{
+    background-color: rgb(28, 62, 142);
+}
+#black{
+    background-color:black;
+}
+article{
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+
+.font h4{
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(28, 62, 142);
+}
+
+.font p{
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(28, 62, 142);
+}
+
+img{
+    max-width: 260px;
+}
+
+article{text-align: center;}
