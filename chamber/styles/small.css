@@ -1,0 +1,96 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: grid;
+}
+
+/* first block */
+.logo{
+    width: 200px;
+    margin: 0px;
+}
+.logo img{
+    width: 35px;
+    float:left;
+}
+.logo h3{
+    margin: 0px;
+    width: 140px;
+    margin-left: 40px;
+}
+
+.logo h5{
+    margin: 0px;
+    width: 200px;
+    margin-left: 40px;
+}
+/* second block */
+header p {
+    background-color: rgb(47, 43, 43);
+    color: white;
+    padding: .5rem 2vw;
+    text-align: center;}
+/* third block  */
+nav button{
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(47, 43, 43);
+    float: right;
+    position: relative;
+    top: -115px;
+}
+
+nav{
+    background-color: #eee;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+
+/* main */
+
+main{display: block;}
+main div{
+    margin:5px 0px;
+    background-color: #eee;
+    height: 150px;
+}
+
+/* footer */
+footer{
+    border: 1px solid gray;
+    padding:20px;
+    background-color: rgb(47, 43, 43);
+    text-align: center;
+    font-weight: lighter;
+    color: #fff;
+}
+footer img{
+    width: 90px;
+}
+footer div p{
+    margin: 0px;
+}
+
+footer div:nth-child(3) p:nth-child(2) {
+    font-weight: bold;
+    margin: 3px 0px;
+}
