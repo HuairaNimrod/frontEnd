@@ -66,8 +66,20 @@ main figure.myphoto{
     float: right;
 }
 
+
+
 main figure.myphoto img{  width: 100%;}
 main figure.myphoto figcaption {text-align: center;}
+
+
+main picture.photoA{
+    width: 80%;
+    border: 1px green dashed;
+}
+main picture.photoA img{
+    width: 100%;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
