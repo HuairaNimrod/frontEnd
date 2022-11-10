@@ -85,7 +85,13 @@ main div{
     background-color: #eee;
     height: 150px;
 }
-
+picture.hero{
+    display: block;
+    margin-top: 0;
+}
+main div picture img{
+    width: 100%;
+}
 /* footer */
 footer{
     border: 1px solid gray;
