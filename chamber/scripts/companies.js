@@ -13,23 +13,17 @@ fetch(requestURL)
 
   function displayCompanies(companie){
     // Create elements to add to the document  
-  let card=document.createElement("section");
-  let portrait=document.createElement("img");
-  let heading=document.createElement("h2");
-  let paragraph=document.createElement("p");
-  let paragraph2=document.createElement("p");
-  let website=document.createElement("p");
-  let paragraph4=document.createElement("p");
-
-   heading.textContent=`${companie.name}`;
-   paragraph.textContent=`${companie.location}`;
-   paragraph2.textContent=`${companie.telf}`;
-   website.innerHTML=`<a href="${companie.website}" target="_blank">${companie.website}</a>`;
-   paragraph4.textContent=`${companie.membership}`;
+  let card = document.createElement("section");
+  let portrait = document.createElement("img");
+  let heading = document.createElement("h2");
+  let paragraph = document.createElement("p");
+  let paragraph2 = document.createElement("p");
+  let website = document.createElement("p");
+  let paragraph4 = document.createElement("p");
 
    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
    portrait.setAttribute('src', companie.logourl);
-   portrait.setAttribute('alt', `Portait of ${companie.name}`);
+   portrait.setAttribute('alt', 'Portait of ${companie.name}');
    portrait.setAttribute('loading','lazy');
 
    // Add/append the section(card) with the h2 element
