@@ -79,19 +79,48 @@ nav ul.open {display: block;}
 
 /* main */
 
-main{display: block;}
-main div{
-    margin:5px 0px;
-    background-color: #eee;
-}
-picture.hero{
+main{
     display: block;
-    margin-top: 0;
 }
-main div picture img{
+.container{
+    background-color: #eee;
+    grid-template-columns: auto auto;
+    /* border: 1px solid blue; */
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+/* image section  */
+picture.hero img{
+    display: block;
     width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
 }
+section{
+    border: 1px solid red;
+    margin: 5px;
+}
+/* weather section  */
+div.container:nth-child(2){
+    text-align: center;
+    padding: 5px;
+}
+.weather-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.weather-section{
+    border: 1px dotted blue;
+    border-radius: 10px;
+}
+
+/* news section  */
+
+
 /* footer */
+
 footer{
     border: 1px solid gray;
     padding:20px;

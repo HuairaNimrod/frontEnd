@@ -31,7 +31,7 @@
   </header>
   <div></div>
   <main>
-    <div>
+    <div class="container">
       <picture class="hero">
           <source media="(max-width: 200px)" srcset="images/hero200.jpg">
           <source media="(max-width: 500px)" srcset="images/hero500.jpg">
@@ -39,20 +39,40 @@
           <img src="images/hero.jpg" alt="hero" >
       </picture>
     </div>
-    <div>
-      <h4>Weather</h4>
-      <figure>
-        <img>
-        <figcaption><p><span id="temperature"></span>&#8451;</p></span></figcaption>
-      </figure>
-      <p>Wind Speed: <span id="windSpeed"></span></p>
-      <p>Wind Chill: <span id="windChill"></span></p>
 
+    <div class="container">
+      <h2>Weather</h2>
+        <p>The current temperature in Rexburg is <span id="current-temp"></span> &deg;C</p>
+        <div class="weather-container">
+            <div class="weather-section">
+                <h5>Current Condition Icon</h5>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="weather-section">
+                <h5>Wind Info</h5>
+                <p>Wind Speed: 
+                    <!-- <span id="windSpeed"></span> -->
+                  </p>
+                <p>Wind Chill: 
+                    <!-- <span id="windChill"></span> -->
+                  </p>
+
+            </div>
+        </div>
+        
+       
+         </div>
+
+    <div class="container">
+      <h3>News</h3>
     </div>
-    <div>news</div>
-    <div>
+    
+    <div class="container">
       <section><h4>spotlight 1</h4></section>
-      <section><h5>spotlight 2</h5></section>
+      <section><h4>spotlight 2</h5></section>
     </div>
 
   </main>
@@ -76,7 +96,7 @@
   </footer>
   <script src="scripts/hamburguer.js"></script>  
   <script src="scripts/banner.js"></script>  
-  <script src="scripts/message.js"></script> 
+  <!-- <script src="scripts/message.js"></script>  -->
   <script src="scripts/windchill.js"></script> 
 </body>
 </html>
