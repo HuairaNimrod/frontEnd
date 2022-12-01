@@ -77,56 +77,6 @@ nav ul {display: none;}
 nav ul.open {display: block;}
 
 
-/* main */
-
-main{
-    display: block;
-}
-.container{
-    background-color: #eee;
-    grid-template-columns: auto auto;
-    /* border: 1px solid blue; */
-    margin: 5px;
-    border-radius: 5px;
-    border: 1px solid blue;
-    padding: 5px 15px;
-}
-/* image section  */
-div.container:nth-child(1){
-    text-align: center;
-    padding: 0;
-}
-picture.hero img{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 5px;
-}
-/* weather section  */
-div.container:nth-child(2){
-    text-align: center;
-}
-.weather-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
-}
-.weather-section{
-    border: 1px dotted blue;
-    border-radius: 10px;
-    margin-bottom: 5px;
-}
-
-/* news section  */
-
-/* spotlight section  */
-
-section{
-    border: 1px dotted red;
-    margin: 5px;
-    border-radius: 10px;
-    padding: 5px;
-}
 
 /* footer */
 
