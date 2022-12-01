@@ -1,0 +1,44 @@
+{
+    "companies": [
+        {
+            "name": "Entel",
+            "location": "Lima, Peru",
+            "telf": "800-175000",
+            "logourl": "https://github.com/HuairaNimrod/wdd230/tree/main/lesson9/images/entel.png",
+            "website": "http://www.entel.pe",
+            "membership": "Bronze Membership"
+        },
+        {
+            "name": "FPF",
+            "location": "Lima, Peru",
+            "telf": "9898123456",
+            "logourl": "https://github.com/HuairaNimrod/wdd230/tree/main/lesson9/images/fpf.png",
+            "website": "http://www.fpf.org.pe",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "Rokys",
+            "location": "Lima, Peru",
+            "telf": "987456789",
+            "logourl": "https://github.com/HuairaNimrod/wdd230/tree/main/lesson9/images/rokys.png",
+            "website": "http://www.rokys.com",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "UNMSM",
+            "location": "Lima, Peru",
+            "telf": "9084563784",
+            "logourl": "https://github.com/HuairaNimrod/wdd230/tree/main/lesson9/images/unmsm.png",
+            "website": "http://www.unmsm.edu.pe",
+            "membership": "Gold Membership"
+        },
+        {
+            "name": "San Fernando",
+            "location": "Lima, Peru",
+            "telf": "392048572",
+            "logourl": "https://github.com/HuairaNimrod/wdd230/tree/main/lesson9/images/san-fernando.png",
+            "website": "http://www.san-fernando.com.pe",
+            "membership": "Silver Membership"
+        }    
+    ]
+}
