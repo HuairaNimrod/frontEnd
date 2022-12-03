@@ -77,6 +77,42 @@ nav ul {display: none;}
 nav ul.open {display: block;}
 
 
+/* main  */
+
+
+div.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+section{
+    border: 1px solid black;
+    text-align: center;
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 5px;
+    background-color: rgba(0,0,0, 0.8);
+    color: #fff;
+    padding: 10px;
+}
+
+section p{
+    margin: 0;
+}
+section h4{
+    margin: 0;
+}
+section a{
+    text-decoration: none;
+    color: white;
+}
+section img{
+    max-width: 50px;
+    margin-top: 5px;
+}
+
+
+
+
 
 /* footer */
 
@@ -98,4 +134,16 @@ footer div p{
 footer div:nth-child(3) p:nth-child(2) {
     font-weight: bold;
     margin: 3px 0px;
+}
+
+
+@media only screen and (min-width: 32.5em){
+    div.cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section{
+        text-align: center;
+        width: 80%;
+       
+    }
 }
