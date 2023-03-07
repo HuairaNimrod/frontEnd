@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+main{
+    color: white;
+    text-align: center;
+}
+
+figure{
+    background-color: gray;
+    border-radius: 8px ;
+    padding: 10px;
+}
+
