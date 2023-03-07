@@ -1,4 +1,4 @@
-const requestURL = 'https://huairanimrod.github.io/wdd230/chamber/json/data.json';
+const requestURL = 'https://huairanimrod.github.io/fronttEnd/chamber/json/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
